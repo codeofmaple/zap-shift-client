@@ -11,7 +11,6 @@ const Button = ({ text }) => {
         >
             {/* Main container */}
             <div className="flex items-center relative">
-                {/* Text container - maintains consistent width */}
                 <div className="
                     relative bg-primary text-black py-2 px-5 
                     transition-all duration-300 ease-out group-hover:rounded-r-none
@@ -20,7 +19,7 @@ const Button = ({ text }) => {
                     {text}
                 </div>
 
-                {/* Icon container - full rounded that becomes square on hover */}
+                {/* Icon container */}
                 <div className="  bg-black text-primary
                     transition-all duration-300 ease-out
                     size-10 flex items-center justify-center
