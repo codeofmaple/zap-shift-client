@@ -4,7 +4,7 @@ import merchantLight from '../../assets/be-a-merchant-bg.png';
 
 const Merchant = () => {
     return (
-        <div className='relative bg-[#03373d] text-white rounded-4xl overflow-hidden isolate'
+        <div className='relative bg-[#03373d] text-white  rounded-4xl overflow-hidden isolate'
             style={{
                 backgroundImage: `url(${merchantLight})`,
                 backgroundPosition: 'top right',
@@ -18,7 +18,7 @@ const Merchant = () => {
                 style={{
                     backgroundImage: `url(${merchantImg})`,
                     backgroundPosition: 'right 40px center  ',
-                    backgroundRepeat: 'no-repeat',  
+                    backgroundRepeat: 'no-repeat',
                 }}
             />
 

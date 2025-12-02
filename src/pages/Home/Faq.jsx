@@ -32,8 +32,8 @@ export default function Faq() {
     const toggle = (i) => setOpenIndex((prev) => (prev === i ? -1 : i));
 
     return (
-        <section className="py-14 bg-[#edf2f1]">
-            <div className="max-w-3xl mx-auto px-6">
+        <section className="mb-20">
+            <div className="max-w-4xl mx-auto px-6">
                 <header className="text-center mb-8">
                     <h2 className="text-3xl md:text-4xl font-extrabold text-[#0b3b37]">Frequently Asked Question (FAQ)</h2>
                     <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
