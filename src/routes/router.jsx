@@ -6,6 +6,8 @@ import Pricing from "../pages/Pricing/Pricing";
 import About from "../pages/About/about";
 import TrackOrder from "../pages/TrackOrder/TrackOrder";
 import Services from "../pages/Services/Services";
+import Login from "../pages/Login/Login";
+import Register from "../pages/Register/Register";
 
 export const router = createBrowserRouter([
     {
@@ -36,6 +38,15 @@ export const router = createBrowserRouter([
                 path: '/track-order',
                 element: <TrackOrder></TrackOrder>
             },
+            {
+                path: '/login',
+                element: <Login></Login>
+            },
+            {
+                path: '/register',
+                element: <Register></Register>
+            },
         ]
     },
+
 ]);

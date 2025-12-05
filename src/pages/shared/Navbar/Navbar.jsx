@@ -52,7 +52,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end gap-2">
                     <span className='hidden md:inline-block'>
-                        <Link className="btn   btn-ghost border border-base-300 px-6 rounded-lg font-medium
+                        <Link to='/login' className="btn   btn-ghost border border-base-300 px-6 rounded-lg font-medium
                     hover:bg-primary transition-all duration-300 ease-in-out active:scale-95">
                             Sign In
                         </Link>
